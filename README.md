@@ -9,7 +9,7 @@
                   ![](Images/input.JPG)  
                   
 **Output:**       The output looks like
-                  ![](Images/output.JPG)  
+                    
                   
 **Technical highlights:**   
 * Tested the search functionality with heavy text file sizes ***(50 GB)*** in a diretory, two files of them are ***23 GB*** each
