@@ -1,5 +1,5 @@
 # SearchEngine
-**Description:**  This repository facilitates searching mechanism with a pre-scoped functionality. User input key-words are scanned across all the files(.txt) in a given directory.
+**Description:**  This repository facilitates searching mechanism with a pre-scoped functionality. User input key-words are scanned across all the files(***.txt***) in a given directory.
                   *(found keywords / total search keywords)X100* is considered to be the top scorer in showing in the output. Like such by default top 10 matches will be shown.
           
 **Input:**        *main.py* is the main file to run. In the python commandline interface, --help can be seen for the options to run the code.
