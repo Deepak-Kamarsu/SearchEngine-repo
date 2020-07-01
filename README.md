@@ -5,7 +5,7 @@
 **Input:**        *main.py* is the main file to run. In the python commandline interface, --help can be seen for the options to run the code.
                   ![](Images/help.JPG)      
 
-**Input Example:**  The input parameters are the file path and the filtered results. The input key-words can be eighter with the delimeters(';' ' ', ',')
+**Input Example:**  The input parameters are the file path and the filtered results. ***(';' ' ', ',')***  delimeters can be used to construct the input key-words.
                   ![](Images/input.JPG)  
                   
 **Output:**       The output looks like
