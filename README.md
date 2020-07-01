@@ -14,7 +14,9 @@
                   
 **Technical highlights:**   
 * Tested the search functionality with heavy text file sizes ***(50 GB)*** in a diretory, two files of them are ***23 GB*** each
-* Using ***multi-processing*** search on heavy files were done in 2-3 minutes.
+* Used ***multi-processing***. A complete search/Scan on heavy files(50 GB) were done in 2-4 minutes. It works pretty fast(Seconds) if words found in initial/middle chunks. Thought tried ***multi-threading*** to make things concurrent as it involves IO bounds, it seems not have a significant impact so made the code to run on  ***multi-processing***
+* ***MMAP and buffered chunks*** were tried to read such heavy data but opted bufferd chunks as MMAP has low performance on the complete setup.
+* Code developed on Windows and hence tested on Windows and also tested on Linux. As 'os' module is used in the code, we need to make sure and needs testing it for running on different environments.
                    
                    
 **Future improvements(TODO):**   
